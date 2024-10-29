@@ -33,11 +33,9 @@ class Square(Shape):
     
     def _compare(self, value1, value2):
         if value1 > value2:
-            return "bigger"
-        elif value1 < value2:
-            return "smaller"
+            return True
         else:
-            return "equal"
+            return False
 
 # Rectangle
 class Rectangle(Shape):
@@ -59,11 +57,9 @@ class Rectangle(Shape):
     
     def _compare(self, value1, value2):
         if value1 > value2:
-            return "bigger"
-        elif value1 < value2:
-            return "smaller"
+            return True
         else:
-            return "equal"
+            return False
 
 # Triangle
 class Triangle(Shape):
@@ -88,11 +84,9 @@ class Triangle(Shape):
     
     def _compare(self, value1, value2):
         if value1 > value2:
-            return "bigger"
-        elif value1 < value2:
-            return "smaller"
+            return True
         else:
-            return "equal"
+            return False
 
 # Circle
 class Circle(Shape):
@@ -113,11 +107,9 @@ class Circle(Shape):
     
     def _compare(self, value1, value2):
         if value1 > value2:
-            return "bigger"
-        elif value1 < value2:
-            return "smaller"
+            return True
         else:
-            return "equal"
+            return False
 
 # Example
 square = Square(4)
